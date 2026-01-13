@@ -1,0 +1,28 @@
+# Build artifacts
+Manifest.toml
+
+# Documentation build
+docs/build/
+docs/site/
+
+# Test coverage
+*.cov
+coverage/
+lcov.info
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Julia
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+deps/deps.jl
+deps/build.log

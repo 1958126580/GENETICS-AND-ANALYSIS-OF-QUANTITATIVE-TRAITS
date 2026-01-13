@@ -1,0 +1,45 @@
+name = "QuantitativeGenetics"
+uuid = "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+authors = ["MeiBujun <1958126580@qq.com>"]
+version = "1.0.0"
+
+[deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+LogExpFunctions = "2ab3a3ac-af41-5b50-aa03-7779005ae688"
+LoopVectorization = "bdcacae8-1622-11e9-2a5c-532679323890"
+NLopt = "76087f3c-5699-56af-9a33-bf431cd00edd"
+Optim = "429524aa-4258-5aef-a3af-852621145aeb"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[compat]
+julia = "1.9"
+CSV = "0.10"
+DataFrames = "1.6"
+Distributions = "0.25"
+Documenter = "1.0"
+ForwardDiff = "0.10"
+LogExpFunctions = "0.3"
+LoopVectorization = "0.12"
+NLopt = "1.0"
+Optim = "1.9"
+SpecialFunctions = "2.3"
+StaticArrays = "1.9"
+StatsBase = "0.34"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+SafeTestsets = "1bc83da4-3b8d-516f- voices-ef1bd2dbbf73"
+
+[targets]
+test = ["Test", "SafeTestsets"]
